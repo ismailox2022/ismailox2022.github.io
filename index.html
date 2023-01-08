@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+     
+</html>
+
+     <head>
+    <meta charset="UTF-8"/> 
+    <title>créer un Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+    
+     
+    </head>
+   
+    
+        
+        <body>
+        <nav>
+            <div class="profile">
+                <h1>Ismail Toumi</h1>
+            </div>
+            <div class="logo">Technologie du web </div>
+            
+            <ul>
+                <li><a class="active" href="#" onclick="F1()" >Chapitre1</a></li>
+                <li><a  href="#" onclick="F2()">Chapitre2</a></li>
+                <li><a href="#" onclick="F3()">Chapitre3</a></li>
+                
+               
+
+            </ul>
+        </nav>
+            <div id="div1"><h1>Introduction à HTML</h1>
+                <p>HTML (Hypertext Markup Language) est le langage de balisage standard pour la création de pages web et d'applications web.
+                     Il est utilisé pour structurer et formater le contenu sur le web et pour créer des liens entre différentes pages web.
+                      HTML se compose d'une série d'éléments, ou balises, qui sont utilisées pour définir la structure et le contenu d'une page web.</p> 
+                       <h2>Balises HTML</h2>
+<p>Les balises HTML sont utilisées pour marquer le contenu d'une page web.
+     Elles indiquent au navigateur comment interpréter et afficher le contenu. 
+     Voici quelques balises HTML courantes :</p>
+<ul>
+  <li><code>&lt;p&gt;</code> : définit un paragraphe de texte</li>
+  <li><code>&lt;h1&gt;</code> à <code>&lt;h6&gt;</code> : définissent des titres de différents niveaux</li>
+  <li><code>&lt;a&gt;</code> : définit un lien hypertexte</li>
+  <li><code>&lt;img&gt;</code> : définit une image</li>
+  <li><code>&lt;div&gt;</code> : définit une division ou une section du document</li>
+</ul>
+ <h2>Exemples HTML</h2>
+<p>Voici quelques exemples d'utilisation des balises HTML dans une page web :</p>
+ <p>Ceci est un paragraphe de texte. Il est enveloppé dans une paire de balises <code>&lt;p&gt;</code>, qui indiquent au navigateur de le traiter comme un paragraphe de texte. 
+    Vous pouvez utiliser la balise <code>&lt;p&gt;</code> pour ajouter des blocs de texte à votre page web.</p>
+  <h1>Voici un titre</h1>
+<p>La balise <code>&lt;h1&gt;</code> est utilisée pour définir le titre le plus important de la page. Il existe également les balises <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code> et <code>&lt;h6&gt;</code> pour des titres de taille différente </p>
+<img src="https://via.placeholder.com/150" alt="Une image de placeholder">
+<p>La balise <code>&lt;img&gt;</code> est utilisée pour insérer une image dans une page web. L'attribut <code>src</code> spécifie la source de l'image, et l'attribut <code>alt</code> fournit un texte alternatif pour l'image en cas d'impossibilité de l'afficher.</p>
+ <div>
+  <p>Ce contenu est contenu dans une division, qui est définie par la balise <code>&lt;div&gt;</code>. Les divisions peuvent être utilisées pour structurer et organiser le contenu d'une page web.</p>
+</div>
+ <h2>Voici un document HTML</h2>
+<p>Voici comment un document HTML complet pourrait être structuré :</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAUalt=" Un exemple de structure de document HTML">
+<p>Le document commence par la déclaration <code>&lt;!DOCTYPE html&gt;</code>, qui indique au navigateur qu'il s'agit d'un document HTML. Ensuite, il y a la balise <code>&lt;html&gt;</code>, qui enveloppe l'ensemble du contenu de la page. 
+    À l'intérieur de cette balise, il y a les balises <code>&lt;head&gt;</code> et <code>&lt;body&gt;</code>, qui définissent respectivement les informations de métadonnées et le contenu affiché de la page. 
+    Le contenu de la page peut être organisé à l'aide de balises de titre, de paragraphe, d'image, etc.</p></div>
+            <div id="div2"><h1>Introduction à CSS</h1>
+                <p>CSS (Cascading Style Sheets) est un langage de style utilisé pour décrire l'apparence d'un document HTML.
+                     Il permet de définir la mise en forme, la mise en page et l'apparence visuelle des éléments d'un site web. 
+                     En utilisant CSS, vous pouvez contrôler la couleur, la police, l'espacement et de nombreux autres aspects de l'apparence de votre site.</p>
+                <p>Il existe plusieurs façons d'ajouter du CSS à un site web. Vous pouvez le faire directement dans l'élément <code>&lt;style&gt;</code> de votre page HTML, ou bien en utilisant un fichier CSS externe et en l'incluant dans votre page avec la balise <code>&lt;link&gt;</code>. 
+                    Il est également possible d'utiliser des préprocesseurs CSS tels que SASS ou LESS pour ajouter des fonctionnalités avancées au CSS.</p>
+                     color : définit la couleur du texte. Exemple :
+ <p style="color: blue;">Ce texte est en bleu</p>
+
+<h1>Propriétés CSS</h1>
+  <p>Voici quelques propriétés CSS courantes et leur fonctionnalité :</p>
+  <ul>
+    <li>
+      <strong>color</strong> : cette propriété définit la couleur du texte d'un élément HTML.
+       Elle peut être spécifiée en utilisant un nom de couleur comme "blue" ou en utilisant des valeurs de couleur en hexadécimal comme "#0000ff".
+    </li>
+    <li>
+      <strong>font-size</strong> : cette propriété définit la taille de la police de caractères pour un élément HTML. 
+      La taille peut être spécifiée en pixels (px), en points (pt) ou en em (un em est égal à la taille de la police actuelle). 
+      Par exemple, "20px" définira une taille de police de 20 pixels.
+    </li>
+    <li>
+      <strong>font-family</strong> : cette propriété définit la famille de polices à utiliser pour un élément HTML. 
+      Vous pouvez spécifier une seule police, comme "Arial", ou une liste de polices séparées par des virgules, comme "Arial, sans-serif". 
+      Si le navigateur ne dispose pas de la première police spécifiée, il passera à la suivante jusqu'à ce qu'une police disponible soit trouvée.
+    </li>
+    <li>
+      <strong>background-color</strong> : cette propriété définit la couleur d'arrière-plan d'un élément HTML. 
+      Elle peut être spécifiée en utilisant un nom de couleur comme "lightgray" ou en utilisant des v.</li></div>
+    </ul>
+
+ <div id="div3"><h1>Introduction à JavaScript</h1>
+    <p>JavaScript est un langage de programmation de scripts utilisé principalement dans les pages web interactives. 
+        Il permet de donner vie à un site en ajoutant des fonctionnalités telles que des pop-ups, des animations et des calculs dynamiques.</p>
+    <p>JavaScript peut être utilisé pour effectuer des actions lorsqu'un événement se produit sur une page, comme lorsqu'un utilisateur clique sur un bouton ou saisit du texte dans un formulaire. 
+        Vous pouvez également utiliser JavaScript pour effectuer des calculs et afficher le résultat sur votre page web.</p>
+    <p>Comme pour CSS, il existe plusieurs façons d'ajouter du JavaScript à une page web. 
+        Vous pouvez le faire directement dans l'élément <code>&lt;script&gt;</code> de votre page HTML, ou bien en utilisant un fichier JavaScript externe et en l'incluant dans votre page avec la balise <code>&lt;script&gt;</code>.</p>
+        <p>JavaScript est un langage de programmation de script côté client utilisé pour créer des sites web interactifs et dynamiques.</p>
+  <h2>Fonctionnalités de JavaScript</h2>
+  <ul>
+    <li>Formulaires en ligne</li>
+    <li>Animations</li>
+    <li>Interactions avec l'utilisateur (clics, hover, etc.)</li>
+    <li>Communication avec les serveurs (Ajax, fetch, etc.)</li>
+  </ul>
+  <h2>Comment utiliser JavaScript</h2>
+  <p>Vous pouvez ajouter du JavaScript à votre page HTML en utilisant la balise <code>&lt;script&gt;</code> dans l'en-tête ou le corps de votre page.</p>
+  <p>Voici un exemple de code JavaScript qui affiche un message dans une boîte de dialogue lorsque l'utilisateur clique sur un bouton :</p>
+  
+        
+        
+       
+        
+        
+        
+       
+        
+
+      
+        
+
+       
+
+      
+   
+  
+    
+    <script>
+        a=document.getElementById('div1');
+        b=document.getElementById('div2');
+        c=document.getElementById('div3');
+        b.style.display = "none";
+         c.style.display = "none";
+        function F1(){
+
+        
+            a.style.display = "none";
+            b.style.display = "none";
+            c.style.display = "none";
+            if(a.style.display ==="none"){
+a.style.display = "block";
+     }
+}
+function F2(){
+
+
+a.style.display = "none";
+ b.style.display = "none";
+ c.style.display = "none";
+ if(b.style.display ==="none"){
+b.style.display = "block";
+     }
+       
+      }
+       function F3(){
+ a.style.display = "none";
+ b.style.display = "none";
+ c.style.display = "none";
+ if(c.style.display ==="none"){
+c.style.display = "block";
+     }
+}
+function showMessage() {
+        alert('Hello World!');
+      }
+    </script>
+        </body>
+        </html>
